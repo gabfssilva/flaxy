@@ -1,2 +1,3 @@
-# flaxy
-A collection of ready-to-use Neural Networks built on Flax
+# Flaxy
+
+Composable reusable neural network architectures built on top of Flax NNX and JAX.
