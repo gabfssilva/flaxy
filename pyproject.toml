@@ -1,0 +1,25 @@
+[project]
+name = "flaxy"
+version = "0.1.0"
+description = "Composable reusable neural network architectures built on top of Flax NNX and JAX."
+readme = "README.md"
+requires-python = "==3.13.*"
+dependencies = [
+    "jax",
+    "flax",
+    "optax"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "ty"
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py313"
+
+[tool.ty]
+strict = true
